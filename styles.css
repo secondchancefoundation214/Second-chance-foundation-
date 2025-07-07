@@ -1,0 +1,92 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0; padding: 0;
+    background: #f9fbfc;
+    color: #222;
+}
+
+header {
+    background: #1e6e4a;
+    color: #fff;
+    padding: 1.2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 0.5rem 0;
+    font-size: 2.2rem;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(30,110,74,0.07);
+}
+
+.cta {
+    display: inline-block;
+    margin: 1rem 1rem 0 0;
+    padding: 0.7rem 1.5rem;
+    background: #199e60;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.cta.secondary {
+    background: #1e6e4a;
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 0.6rem;
+    margin-top: 0.2rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+form button {
+    margin-top: 1.5rem;
+    padding: 0.7rem 2rem;
+    background: #199e60;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+form button:hover {
+    background: #1e6e4a;
+}
+
+footer {
+    text-align: center;
+    padding: 1.2rem 0;
+    background: #199e60;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+    .section { padding: 1rem; }
+    nav a { display: inline-block; margin: 0.2rem; }
+}
